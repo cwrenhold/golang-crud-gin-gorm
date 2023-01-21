@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "f855a763-6c8c-494a-ad60-2076f6baf6f0",
+    "colId": "7648bfa2-82ce-4d8c-b748-462d1f6a37b0",
+    "containerId": "",
+    "name": "Test root URL",
+    "url": "localhost:3000/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-01-21T11:36:45.239Z",
+    "modified": "2023-01-21T11:36:45.240Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "069513ab-c3a6-4747-882f-ec2215e6998e",
+    "colId": "7648bfa2-82ce-4d8c-b748-462d1f6a37b0",
+    "containerId": "",
+    "name": "Post new post",
+    "url": "localhost:3000/posts",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-21T11:37:20.117Z",
+    "modified": "2023-01-21T11:37:51.608Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Some post\",\n  \"body\": \"Some post's body\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
