@@ -78,5 +78,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "1a86e376-1f1d-4cdf-9b40-9b114f813d81",
+    "colId": "7648bfa2-82ce-4d8c-b748-462d1f6a37b0",
+    "containerId": "",
+    "name": "Delete post",
+    "url": "localhost:3000/posts/4",
+    "method": "DELETE",
+    "sortNum": 60000,
+    "created": "2023-01-21T11:53:13.236Z",
+    "modified": "2023-01-21T11:53:23.222Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
