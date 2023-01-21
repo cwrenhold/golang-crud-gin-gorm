@@ -22,6 +22,10 @@ func main() {
 	})
 
 	r.POST("/posts", controllers.PostsCreate)
+	r.PUT("/posts/:id", controllers.PostsUpdate)
+
+	r.GET("/posts", controllers.PostsIndex)
+	r.GET("/posts/:id", controllers.PostsShow)
 
 	r.Run() // listen and serve on 0.0.0.0:{PORT}
 }
