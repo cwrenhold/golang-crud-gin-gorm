@@ -10,6 +10,14 @@
             "problemMatcher": [
                 "$go"
             ]
+        },
+        {
+            "label": "Run migrations",
+            "type": "shell",
+            "command": "go run migrations/migrate.go",
+            "problemMatcher": [
+                "$go"
+            ]
         }
     ]
 }
